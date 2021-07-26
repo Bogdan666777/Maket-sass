@@ -1,0 +1,294 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 25px 0;
+  background-color: #2e0914;
+  height: 80px;
+  z-index: 50;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 80px;
+}
+
+header .logo {
+  width: 180px;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-menu {
+  border: 2px solid white;
+  padding: 8px;
+  font-size: 14px;
+  color: #a4aead;
+  font-weight: 600;
+  font-family: "Open Sans";
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
+header .nav-menu-elem {
+  padding-left: 7px;
+  display: block;
+  font-size: 14px;
+  color: #a4aead;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .nav-menu:hover {
+  border: 2px solid red;
+}
+
+header .nav-menu:active {
+  border: 2px solid blue;
+}
+
+header .nav-menu-elem:active {
+  color: blue;
+}
+
+header .search {
+  width: 195px;
+  height: 30px;
+  border: 2px solid #a4aead;
+  border-radius: 5px;
+  position: relative;
+  margin-top: -5px;
+  margin-left: 97px;
+}
+
+header .search-input {
+  display: block;
+  border: none;
+  padding: 0 0 0 8px;
+  background-color: transparent;
+  color: #a4aead;
+  font: "Open sans" 14px 600;
+  text-transform: uppercase;
+  height: 100%;
+  width: 160px;
+}
+
+header .search-btn {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+header .img-btn {
+  margin-top: -13px;
+  margin-left: -3px;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.header {
+  padding: 25px 0;
+  background-color: #1d2126;
+  height: 80px;
+  z-index: 50;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.col-md-3 {
+  width: 25%;
+  width: 260px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-12 {
+  width: 1140px;
+}
+
+main .fon {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/fon-kino.jpg);
+}
+
+main .text-h1 {
+  width: 700px;
+  height: 35px;
+}
+
+main .text-h1 .block-stop {
+  width: 10px;
+  height: 35px;
+  background-color: #c8cdd0;
+  margin-top: 62px;
+}
+
+main .text-h1 p {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #292f36;
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin-left: 26px;
+  margin-top: -34px;
+}
+
+main .opisanie {
+  margin-top: 60px;
+}
+
+main .opisanie h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #292f36;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+main .opisanie p {
+  line-height: 1.5;
+  width: 400px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #292f36;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+main .foto-film {
+  margin-left: 270px;
+  margin-top: 15px;
+}
+
+main .film-comedy {
+  margin-top: 30px;
+  width: 1583px;
+  background-color: #2e0914;
+}
+
+main .film-comedy .text-h1 p {
+  color: white;
+}
+
+main .film-comedy .opisanie h1 {
+  color: white;
+}
+
+main .film-comedy .opisanie p {
+  color: white;
+}
+
+main .film-comedy .foto-film {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-comedy .foto-film img {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-adventure {
+  width: 1583px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+main .film-adventure .foto-film {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-adventure .foto-film img {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-detective {
+  width: 1583px;
+  margin-top: 60px;
+  background-color: #2e0914;
+}
+
+main .film-detective .foto-film {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-detective .foto-film img {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-detective .text-h1 p {
+  color: white;
+}
+
+main .film-detective .opisanie h1 {
+  color: white;
+}
+
+main .film-detective .opisanie p {
+  color: white;
+}
+
+main .film-detektiv {
+  width: 1583px;
+  margin-top: 60px;
+}
+
+main .film-detektiv .foto-film {
+  width: 300px;
+  height: 444px;
+}
+
+main .film-detektiv .foto-film img {
+  width: 300px;
+  height: 444px;
+}
+
+footer {
+  width: 1583px;
+  height: 80px;
+  background-color: #2e0914;
+}
+
+footer .footer-text {
+  margin: 0 auto;
+}
+
+footer .footer-text h1 {
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
